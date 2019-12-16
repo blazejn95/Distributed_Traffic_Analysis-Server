@@ -1,0 +1,1 @@
+The server part of project which gathers the data sent by probes that TCPDUMP the packets flowing through them. Every time a new probe connects the server starts a new thread which will be responsible for that certain connection, receiving data and writing it to files, assuring the file names wont collide. 
